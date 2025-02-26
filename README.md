@@ -17,7 +17,7 @@ Features
     
 *   **Error Handling**: Displays appropriate messages when the API is unavailable.
     
-*   **Themed UI**: Uses a red color scheme to match COVID-19 awareness themes.
+*   **Themed UI**: Uses a purple color scheme to match COVID-19 awareness themes.
     
 
 Tech Stack
