@@ -169,7 +169,7 @@ flutter run
 
 <p align="center">
   <img src="screenshots/screenshot_1.png" width="45%">
-  <div></div>  
+  <img src="", width="5%">
   <img src="screenshots/screenshot_2.png" width="45%">
 </p>
 
