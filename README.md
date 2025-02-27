@@ -167,7 +167,7 @@ flutter run
 💬 Example Conversations
 ------------------------
 
-<p align="center">
+<p>
   <img src="screenshots/screenshot_1.png" width="45%">
   <img src="screenshots/screenshot_2.png" width="45%">
 </p>
