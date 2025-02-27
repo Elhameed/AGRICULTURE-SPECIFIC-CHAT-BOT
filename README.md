@@ -93,7 +93,7 @@ Each experiment was evaluated based on:
 
 ### 📊 Experimentation Results
 
-| Experiment | Batch Size | Learning Rate | Epochs | Weight Decay | F1 Score (Start) | F1 Score (End) | BLEU Score | Perplexity |
+| Experiment     | Batch Size | Learning Rate | Epochs | Weight Decay | F1 Score (Start) | F1 Score (End) | BLEU Score | Perplexity |
 |----------------|------------|---------------|--------|--------------|------------------|----------------|------------|------------|
 | **Base model** | 8          | 2e-5          | 5      | 0.01         | 0.4499           | 0.9090         | 0.8929     | 9.1298     |
 | 1          | 8          | 2e-5          | 3      | 0.01         | 0.7758           | 0.9697         | 0.9541     | 2.1662     |
