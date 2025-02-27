@@ -141,7 +141,7 @@ Each experiment was evaluated based on:
 ### **1️⃣ Clone the Repository**
 
 ```
-git clone 
+git clone https://github.com/Elhameed/COVID-19-CHAT-BOT.git
 cd covid-19-chatbot
 
 ```
