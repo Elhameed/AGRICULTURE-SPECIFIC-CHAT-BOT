@@ -167,7 +167,11 @@ flutter run
 💬 Example Conversations
 ------------------------
 
-![screenshot]
+<p align="center">
+  <img src="screenshots/screenshot_1.png" width="45%">
+  <img src="screenshots/screenshot_2.png" width="45%">
+</p>
+
 
 📌 Project Structure
 --------------------
@@ -175,10 +179,11 @@ flutter run
 ```
 📂 covid-19-chatbot
  ├── 📂 covid_chatbot    # Flutter app
- ├── 📂 data               # Dataset files
- ├── 📂 models             # Saved fine-tuned models
- ├── 📂 notebook
- ├── README.md            # Project Documentation
+ ├── 📂 data             # Dataset files
+ ├── 📂 models           # Saved fine-tuned models
+ ├── 📂 notebook         # Jupuyter notebook
+ ├── 📂 screenshots      # Demo app screenshots
+ ├── README.md           # Project Documentation
  ├── app.py       # API Deployment Script
 
 ```
