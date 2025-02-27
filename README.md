@@ -95,6 +95,7 @@ Each experiment was evaluated based on:
 
 | Experiment | Batch Size | Learning Rate | Epochs | Weight Decay | F1 Score (Start) | F1 Score (End) | BLEU Score | Perplexity |
 |------------|------------|---------------|--------|--------------|------------------|----------------|------------|------------|
+| Base model | 8          | 2e-5          | 5      | 0.01         | 0.4499           | 0.9090         | 0.8929     | 9.1298     |
 | 1          | 8          | 2e-5          | 3      | 0.01         | 0.7758           | 0.9697         | 0.9541     | 2.1662     |
 | **2 ✅**   | **8**      | **3e-5**      | **5**  | **0.01**     | **0.9576**       | **1.0000**     | **0.9993** | **1.3079** |
 | 3          | 8          | 5e-5          | 7      | 0.01         | 0.9576           | 1.0000         | 0.9993     | 1.3635     |
@@ -107,6 +108,7 @@ Each experiment was evaluated based on:
 | 10         | 16         | 2e-5          | 5      | 0.01         | 0.9576           | 0.9697         | 0.9639     | 1.8702     |
 | 11         | 8         | 2e-5          | 7      | 0.05         | 0.9576           | 1.0000         | 0.9993     | 1.6848     |
 | 12         | 32         | 3e-5          | 7      | 0.01         | 0.9167           | 1.0000         | 0.9993     | 1.8917     |
+
 
 🏆 **Best Model Configuration:**
 
@@ -127,8 +129,11 @@ Each experiment was evaluated based on:
 ----------------------
 
 1. **Increasing epochs improved performance but reached a plateau** after 5 epochs. Beyond this, improvements were marginal, while overfitting risks increased.
+   
 2. **Higher learning rates (5e-5) led to slight instability,** with some runs showing increased perplexity.
+
 3. **Batch size of 8 consistently provided better generalization** than 16 or 32.
+   
 4. **Weight decay of 0.01 helped maintain stability,** while 0.05 slightly degraded performance.
 
 
