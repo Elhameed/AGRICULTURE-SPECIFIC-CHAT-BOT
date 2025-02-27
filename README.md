@@ -94,7 +94,7 @@ Each experiment was evaluated based on:
 ### 📊 Experimentation Results
 
 | Experiment | Batch Size | Learning Rate | Epochs | Weight Decay | F1 Score (Start) | F1 Score (End) | BLEU Score | Perplexity |
----------------------------------------------------------------------------------------------------------------------------------
+|------------|------------|---------------|--------|--------------|------------------|----------------|------------|------------|
 | 1          | 8          | 2e-5          | 3      | 0.01         | 0.7758           | 0.9697         | 0.9541     | 2.1662     |
 | **2 ✅**   | **8**      | **3e-5**      | **5**  | **0.01**     | **0.9576**       | **1.0000**     | **0.9993** | **1.3079** |
 | 3          | 8          | 5e-5          | 7      | 0.01         | 0.9576           | 1.0000         | 0.9993     | 1.3635     |
@@ -182,11 +182,6 @@ flutter run
 --------------
 
 [Watch Here](https://drive.google.com/drive/folders/1Q3mIk5a8cK-EH2TpP6wdNlA65cygx2PS?usp=sharing)
-
-🛠️ Contributors
-----------------
-
--   **Abdulhameed Teniola Ajani**
 
 * * * * *
 
