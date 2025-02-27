@@ -121,8 +121,6 @@ Each experiment was evaluated based on:
 *   **BLEU Score:** 0.9993
 
 *   **Perplexity:** 1.3079 (Lowest, indicating better generalization)
-    
-*   **Model saved as best model** /content/drive/MyDrive/Covid-19/best\_model
 
 
 📌 Key Observations
